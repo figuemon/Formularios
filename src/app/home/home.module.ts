@@ -6,7 +6,6 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 import { HomePageRoutingModule } from './home-routing.module';
 import { MessageComponentModule } from '../message/message.module';
-import { TecServFormModule } from '../tech-serv-form/tec-serv.module';
 
 @NgModule({
   imports: [

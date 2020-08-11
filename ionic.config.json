@@ -1,7 +1,8 @@
 {
   "name": "Servicio Tecnico",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
