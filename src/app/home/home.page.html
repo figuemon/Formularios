@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Inbox
+      Boletas de Servicio
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -18,7 +18,12 @@
       </ion-title>
     </ion-toolbar>
   </ion-header>
-  
+  <ion-searchbar showCancelButton="focus"></ion-searchbar>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon [routerLink]="'/form/'" name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
   <ion-list>
     <app-message *ngFor="let message of getMessages()" [message]="message"></app-message>
   </ion-list>
