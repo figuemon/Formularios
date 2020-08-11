@@ -1,0 +1,7 @@
+{
+  "name": "Servicio Tecnico",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
